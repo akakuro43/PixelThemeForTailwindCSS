@@ -1,0 +1,5 @@
+/dist
+/node_moduels
+/packages/frontend/.next
+
+.DS_Store

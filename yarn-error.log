@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/masatoshi/.nodebrew/node/v14.4.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js i
+
+PATH: 
+  /Users/masatoshi/.nodebrew/current/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/masatoshi/.nodebrew/current/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/masatoshi/Develop/Masa-Endo/packages/frontend/package.json: Unexpected token } in JSON at position 278
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    },
+    "dependencies": {
+      "next": "10.0.5",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "sass": "^1.30.0",
+    },
+    "devDependencies": {
+      "@types/node": "^14.14.26",
+      "@types/react": "^17.0.1",
+      "@types/react-dom": "^17.0.0",
+      "autoprefixer": "^10.2.4",
+      "babel-plugin-module-resolver": "^4.1.0",
+      "postcss": "^8.2.5",
+      "tailwindcss": "^2.0.3",
+      "typescript": "^4.1.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
